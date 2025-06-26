@@ -1,0 +1,5 @@
+cd flask_server; source .venv/bin/activate; python3 beTest.py
+
+Run this, open the url in your browser, add '/users' to the url
+
+pip3 install cors, flask_cors, flask

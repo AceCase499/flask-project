@@ -1,0 +1,14 @@
+<form onSubmit={generalMessage}>
+              {/* handleSubmit and handleInputChange are used to stream ai response in real time*/}
+              <input
+                type="text"
+                id="messageinp"
+                value={InputText}
+                disabled={!InpEnabled}
+                placeholder="Send a message..."
+                onChange={
+                  e => setInputText(e.target.value) /* handleInputChange */
+                }
+                className={InpEnabled ? enabledcss : disabledcss}
+              />
+            </form>
